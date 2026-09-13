@@ -35,4 +35,4 @@ jobs:
 
       - name: Run crypto pricing pipeline
         run: |
-          python main.py
+          python src/main.py
