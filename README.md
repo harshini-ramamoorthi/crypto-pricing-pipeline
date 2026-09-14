@@ -367,6 +367,54 @@ The dashboard uses the `latest_crypto_prices` view so that visualizations focus 
 
 ---
 
+## 📸 Project Screenshots
+
+The following screenshots demonstrate the end-to-end pipeline, cloud data storage, automated execution, analytics dashboard, and secure authentication setup.
+
+### 1. GitHub Repository
+
+Project structure, source code, tests, SQL analytics, workflow configuration, and documentation.
+
+![GitHub Repository](screenshots/01-github-repository.jpg)
+
+### 2. Automated GitHub Actions Pipeline
+
+Successful automated pipeline execution, including testing, Google Cloud authentication, and data loading.
+
+![GitHub Actions Success](screenshots/02-github-actions-success.jpg)
+
+### 3. BigQuery Table Schema
+
+Partitioned BigQuery table containing the cryptocurrency pricing data.
+
+![BigQuery Schema](screenshots/03-bigquery-schema.png)
+
+### 4. Latest Cryptocurrency Data
+
+The latest 50 cryptocurrency records successfully loaded into BigQuery.
+
+![BigQuery Latest Data](screenshots/04-bigquery-latest-data.png)
+
+### 5. Data Studio Dashboard — Overview
+
+Key market metrics, top cryptocurrencies by market capitalization, and top gainers.
+
+![Dashboard Overview](screenshots/05-dashboard-overview.png)
+
+### 6. Data Studio Dashboard — Market Analysis
+
+Top cryptocurrency losers and market capitalization distribution.
+
+![Dashboard Market Analysis](screenshots/06-dashboard-market-analysis.png)
+
+### 7. Workload Identity Federation
+
+OIDC-based authentication configuration connecting GitHub Actions securely to Google Cloud without storing long-lived service-account credentials.
+
+![Workload Identity Federation](screenshots/07-workload-identity-federation.jpg)
+
+---
+
 ## Project Structure
 
 ```text
