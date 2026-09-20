@@ -6,7 +6,7 @@ The pipeline runs automatically every day using GitHub Actions and authenticates
 
 ## Live Demo
 
-📊 View the Live Crypto Market Analytics Dashboard https://datastudio.google.com/reporting/2182625e-1f7d-4368-9809-0a33491075b1/page/Dfn8F
+📊 [View the Live Crypto Market Analytics Dashboard](https://datastudio.google.com/reporting/2182625e-1f7d-4368-9809-0a33491075b1/page/Dfn8F)
 ---
 
 ## Architecture
